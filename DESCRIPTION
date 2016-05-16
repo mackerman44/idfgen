@@ -3,7 +3,7 @@ Type: Package
 Title: Import, Manipulate, and Export Genotype Data
 Version: 0.1.0
 Date: 05-12-2016
-Author: Mike Ackerman <mike.ackerman@idfg.idaho.gov> and Eric Grau
+Author: Mike Ackerman <mike.ackerman@idfg.idaho.gov> and Eric Grau <ericdgrau@gmail.com>
 Maintainer: Mike Ackerman <mike.ackerman@idfg.idaho.gov>
 Description: idfgen is an R package to import genotype data from a Progeny database or FishGen.net.
 License: GPL-2
