@@ -9,6 +9,6 @@ Description: idfgen is an R package to import genotype data from a Progeny datab
 License: GPL-2
 LazyData: TRUE
 Imports:
-  abind(>= 1.4-3)
+  abind(>= 1.4-3),
   plyr(>= 1.8.3)
 RoxygenNote: 5.0.1

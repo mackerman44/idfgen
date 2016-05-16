@@ -1,4 +1,4 @@
-#' @title Import Data from Progeny
+#' @title Import Data from www.fishgen.net
 #'
 #' @description \code{readInData()} imports data exported from www.fishgen.net
 #'

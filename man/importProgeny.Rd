@@ -16,7 +16,7 @@ Pedigree Options: Use pedigree names. Any additional fields may be added.}
 \item{genotypeStartColumn}{the column # in \code{inputFile} where the genotypes begin. This will vary depending on the number of additional fields added to the
 Progeny export.}
 
-\item{popColumn}{which column in \code{inputFile} would you like to use to 'parse'. The default is 1, which is where Progeny exports Pedigree
+\item{popColumn}{which column in \code{inputFile} would you like to use to parse the data. The default is 1, which is where Progeny exports Pedigree
 names}
 
 \item{sortBPs}{the \code{readInData()} function will check for "AB"-"BA" discrepancies. If \code{sortBPs = TRUE}, then any "BA" genotypes will

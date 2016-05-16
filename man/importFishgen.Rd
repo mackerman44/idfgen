@@ -2,25 +2,25 @@
 % Please edit documentation in R/importFishgen.r
 \name{importFishgen}
 \alias{importFishgen}
-\title{Import Data from Progeny}
+\title{Import Data from www.fishgen.net}
 \usage{
 importFishgen(inputFile, genotypeStartColumn, popColumn = 1,
   sortBPs = FALSE)
 }
 \arguments{
-\item{inputFile}{the .txt file from \url{www.fishgen.net} containing the biological and genotype data to be imported into \pkg{idfgen}.}
+\item{inputFile}{the .txt file from www.fishgen.net containing the biological and genotype data to be imported into \pkg{idfgen}.}
 
 \item{genotypeStartColumn}{the column # in \code{inputFile} where the genotypes begin. This will vary depending on the number of additional fields added to the
 Progeny export.}
 
-\item{popColumn}{which column in \code{inputFile} would you like to use to 'parse'. The default is 1, which is where Progeny exports Pedigree
+\item{popColumn}{which column in \code{inputFile} would you like to use to parse the data. The default is 1, which is where Progeny exports Pedigree
 names}
 
 \item{sortBPs}{the \code{readInData()} function will check for "AB"-"BA" discrepancies. If \code{sortBPs = TRUE}, then any "BA" genotypes will
 automatically be converted to "AB"}
 }
 \description{
-\code{readInData()} imports data exported from \url{www.fishgen.net}
+\code{readInData()} imports data exported from www.fishgen.net
 }
 \author{
 Eric Grau and Mike Ackerman
