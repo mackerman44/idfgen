@@ -15,6 +15,7 @@
 #'
 #' @author Eric Grau and Mike Ackerman
 #'
+#' @import abind plyr
 #' @export
 #' @return NULL
 
