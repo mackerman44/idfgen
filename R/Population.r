@@ -1,3 +1,5 @@
+#' @export
+
 #################
 # Population.r
 #
@@ -242,35 +244,3 @@
   
   
   
- 
-  
-  
-  #fstat.Population <- function(x, stat="Fst", markers = NULL, ...) {
-#  
-#    
-#   #  f <- 1 - n(Aa) / n(x) 2 * p * q
-#   
-#   d <- x$Scores
-#   counts <- apply(d, 2, table, exclude = 0 )
-#   totals <- sapply(counts, sum)
-#    
-#  
-#  
-#  }
-#  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-   
