@@ -2,16 +2,16 @@
 % Please edit documentation in R/dumpColony.r
 \name{dumpColony}
 \alias{dumpColony}
-\title{Export GSI baseline file}
+\title{Export COLONY file}
 \usage{
 dumpColony(x, markers = NULL, filename, errorFile = NULL,
   errorDefaultValues = c(0, 0), replaceBP = TRUE, basePairs = c("A", "C",
   "G", "T", "-"), replacements = c("1", "2", "3", "4", "5"))
 }
 \arguments{
-\item{x}{the list of populations to be included in gsi baseline file}
+\item{x}{the list of populations to be included in Colony file}
 
-\item{markers}{the markers to be included in gsi baseline file}
+\item{markers}{the markers to be included in Colony file}
 
 \item{filename}{what would you like to name the exported COLONY file?}
 
@@ -19,7 +19,7 @@ dumpColony(x, markers = NULL, filename, errorFile = NULL,
 
 \item{errorDefaultValues}{what would you like your defaule genotype error rate to be for COLONY?}
 
-\item{replaceBP}{would you like to replace the allele names with something else. By default, \code{dumpBaseline()} replaces
+\item{replaceBP}{would you like to replace the allele names with something else. By default, \code{dumpColony()} replaces
 c("A","C","G","T","-") with c("1","2","3","4","5"). This can be set to "FALSE" to keep data in the original imported format. Alternatively,
 the \code{basePairs} and \code{replacements} arguments can be modified to accommodate any desired import or export format.}
 
@@ -28,7 +28,7 @@ the \code{basePairs} and \code{replacements} arguments can be modified to accomm
 \item{replacements}{If \code{replaceBP = TRUE}, what would you like to replace the alleles with?}
 }
 \description{
-\code{dumpBaseline()} exports a gsi baseline file in BAYES, SPAM, or gsi_sim format
+\code{dumpColony()} exports a file in Colony format
 }
 \author{
 Eric Grau and Mike Ackerman

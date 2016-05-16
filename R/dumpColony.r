@@ -1,13 +1,13 @@
-#' @title Export GSI baseline file
+#' @title Export COLONY file
 #'
-#' @description \code{dumpBaseline()} exports a gsi baseline file in BAYES, SPAM, or gsi_sim format
+#' @description \code{dumpColony()} exports a file in Colony format
 #'
-#' @param x the list of populations to be included in gsi baseline file
-#' @param markers the markers to be included in gsi baseline file
+#' @param x the list of populations to be included in Colony file
+#' @param markers the markers to be included in Colony file
 #' @param filename what would you like to name the exported COLONY file?
 #' @param errorFile what would you like to name the marker error rate file for COLONY?
 #' @param errorDefaultValues what would you like your defaule genotype error rate to be for COLONY?
-#' @param replaceBP would you like to replace the allele names with something else. By default, \code{dumpBaseline()} replaces
+#' @param replaceBP would you like to replace the allele names with something else. By default, \code{dumpColony()} replaces
 #' c("A","C","G","T","-") with c("1","2","3","4","5"). This can be set to "FALSE" to keep data in the original imported format. Alternatively,
 #' the \code{basePairs} and \code{replacements} arguments can be modified to accommodate any desired import or export format.
 #' @param basePairs If \code{replaceBP = TRUE}, the nomenclature used for the imported genotype data
